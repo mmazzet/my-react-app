@@ -2,6 +2,9 @@ import Card from './Card.jsx'
 import Student from './Student.jsx'
 import UserGreeting from './UserGreeting.jsx'
 import List from './List.jsx'
+import Button from './Button.jsx'
+import ProfilePicture from './ProfilePicture.jsx'
+
 
 function App() {
 
@@ -19,6 +22,8 @@ function App() {
 
   return(
     <>
+      {/* <Button /> */}
+      <ProfilePicture />
       <UserGreeting isLoggedIn={false} username="Cane"/>
       {/* {fruits.length > 0 ? <List items={fruits} category="Fruits"/> : null }
       {vegetables.length > 0 ? <List items={vegetables} category="Vegetables"/> : null } */}
