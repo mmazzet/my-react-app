@@ -4,6 +4,8 @@ import UserGreeting from './UserGreeting.jsx'
 import List from './List.jsx'
 import Button from './Button.jsx'
 import ProfilePicture from './ProfilePicture.jsx'
+import MyComponent from './MyComponent.jsx'
+import Counter from './Counter.jsx'
 
 
 function App() {
@@ -22,7 +24,10 @@ function App() {
 
   return(
     <>
-      {/* <Button /> */}
+      <Counter />
+      <hr></hr>
+      <MyComponent />
+      <Button />
       <ProfilePicture />
       <UserGreeting isLoggedIn={false} username="Cane"/>
       {/* {fruits.length > 0 ? <List items={fruits} category="Fruits"/> : null }
