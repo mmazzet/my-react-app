@@ -8,6 +8,7 @@ import MyComponent from './MyComponent.jsx'
 import Counter from './Counter.jsx'
 import MyComponent2 from './MyComponent2.jsx'
 import ColorPicker from './ColorPicker.jsx'
+import MyComponent3 from './MyComponent3.jsx'
 
 
 function App() {
@@ -26,6 +27,8 @@ function App() {
 
   return(
     <>
+      <MyComponent3 />
+      <hr></hr>
       <ColorPicker />
       <hr></hr>
       <MyComponent2 />
