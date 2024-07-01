@@ -10,6 +10,7 @@ import MyComponent2 from './MyComponent2.jsx'
 import ColorPicker from './ColorPicker.jsx'
 import MyComponent3 from './MyComponent3.jsx'
 import MyComponent4 from './MyComponent4.jsx'
+import MyComponent5 from './MyComponent5.jsx'
 
 
 function App() {
@@ -28,6 +29,9 @@ function App() {
 
   return(
     <>
+      <MyComponent5 />
+      <hr></hr>  
+      <hr></hr>
       <MyComponent4 />
       <hr></hr>  
       <hr></hr>
