@@ -11,6 +11,7 @@ import ColorPicker from './ColorPicker.jsx'
 import MyComponent3 from './MyComponent3.jsx'
 import MyComponent4 from './MyComponent4.jsx'
 import MyComponent5 from './MyComponent5.jsx'
+import ToDoList from './ToDoList.jsx'
 
 
 function App() {
@@ -29,6 +30,10 @@ function App() {
 
   return(
     <>
+
+      <ToDoList />
+      <hr></hr>  
+      <hr></hr>
       <MyComponent5 />
       <hr></hr>  
       <hr></hr>
