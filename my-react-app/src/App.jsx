@@ -12,6 +12,7 @@ import MyComponent3 from './MyComponent3.jsx'
 import MyComponent4 from './MyComponent4.jsx'
 import MyComponent5 from './MyComponent5.jsx'
 import ToDoList from './ToDoList.jsx'
+import MyComponent6 from './MyComponent6.jsx'
 
 
 function App() {
@@ -30,7 +31,9 @@ function App() {
 
   return(
     <>
-
+      <MyComponent6 />
+      <hr></hr>  
+      <hr></hr>
       <ToDoList />
       <hr></hr>  
       <hr></hr>
