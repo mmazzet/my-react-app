@@ -13,6 +13,7 @@ import MyComponent4 from './MyComponent4.jsx'
 import MyComponent5 from './MyComponent5.jsx'
 import ToDoList from './ToDoList.jsx'
 import MyComponent6 from './MyComponent6.jsx'
+import MyComponent7 from './MyComponent7.jsx'
 
 
 function App() {
@@ -31,6 +32,9 @@ function App() {
 
   return(
     <>
+      <MyComponent7 />
+      <hr></hr>  
+      <hr></hr>
       <MyComponent6 />
       <hr></hr>  
       <hr></hr>
